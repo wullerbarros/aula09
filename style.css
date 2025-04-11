@@ -1,0 +1,49 @@
+header{
+    position: fixed;
+    margin-left: 200px;
+    background: aqua;
+    top: 0px;
+    width: 100%;
+    justify-content: center;
+    
+}
+div{
+   padding: 50%;
+}
+.navlink{
+    list-style: none;
+}
+body{
+    background-color: #facada;
+
+}
+.body .rodape{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.asidel { 
+    position: fixed;
+    top: 0px;
+    background-color: aqua;
+    height: 100vh;
+    width: 208px;
+    /* margin-left: 200px; */
+    left: 0px;
+}
+   
+.navlink li{
+    display: inline-block;
+    padding: 0px 50px;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-left: 200px;
+    text-align: center;
+}
+
