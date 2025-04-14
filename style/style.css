@@ -10,6 +10,25 @@
 body{
     padding-left: 15px;
     padding-right: 15px;
+  
+}
+header{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    pad: 30px 100px;
+    
+}
+
+.lista-icone{
+    display: none;
+}
+
+.nav-header, .nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
 }
 
 .div-card{
@@ -17,11 +36,7 @@ body{
     width: 25%;
     align-items: center;
     text-align: center;
-    border-radius: 8px;
-
- 
-    
-   
+    border-radius: 8px; 
   
 }
 
