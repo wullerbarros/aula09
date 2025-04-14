@@ -7,12 +7,18 @@
     text-decoration: none;
     font-family: "Inter", sans-serif;
 }
+body{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .div-card{
     border: 1px solid gray;
     width: 25%;
     align-items: center;
     text-align: center;
+    border-radius: 8px;
+
  
     
    
