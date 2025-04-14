@@ -128,4 +128,7 @@ h2 > a{
     font-weight: 600;
 }
 
-@media
+
+@media screen and (width <= 998px) {
+    
+}
