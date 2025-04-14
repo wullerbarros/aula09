@@ -18,6 +18,10 @@ header{
     justify-content: space-between;
     padding: 30px 100px;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
     
 }
 
@@ -74,6 +78,7 @@ header{
    gap: 20px;
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
 
 
 }
@@ -130,5 +135,23 @@ h2 > a{
 
 
 @media screen and (width <= 998px) {
-    
+    header{
+        flex-wrap: wrap;
+    }
+
+    .form-header{
+        order: 2;
+        width: 100%;
+    }
+    .form-header input{
+        width: 120%;
+    }
+
+    .lista-icone {
+        display:inline
+    }
+
+    .lista-links li {
+        display: none;
+    }
 }
