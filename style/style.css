@@ -16,8 +16,27 @@ header{
     background-color: lightgray;
     display: flex;
     justify-content: space-between;
-    pad: 30px 100px;
+    padding: 30px 100px;
     
+}
+
+.form-header{
+    width: 40%;
+    display: flex;
+   
+}
+
+
+.form-header input {
+    height: 40px;
+    width: 80%;
+   border-radius: 5px 0 0 5px;
+    
+}
+
+.form-header button{
+    padding: 12px;
+    border-radius: 0 5px 5px 0;
 }
 
 .lista-icone{
