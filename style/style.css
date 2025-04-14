@@ -8,8 +8,8 @@
     font-family: "Inter", sans-serif;
 }
 body{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
   
 }
 header{
@@ -17,6 +17,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 30px 100px;
+    align-items: center;
     
 }
 
@@ -52,7 +53,7 @@ header{
 
 .div-card{
     border: 1px solid gray;
-    width: 25%;
+    width: 300px;
     align-items: center;
     text-align: center;
     border-radius: 8px; 
@@ -61,7 +62,7 @@ header{
 
 .div-card img{
    width:80%;
-   height: 180px;
+   height: 270px;
   padding: 15px;
     position: relative;
 
@@ -72,6 +73,7 @@ header{
 .section-cards{
    gap: 20px;
    display: flex;
+   flex-wrap: wrap;
 
 
 }
@@ -125,3 +127,5 @@ h2 > a{
     font-size: 24px;
     font-weight: 600;
 }
+
+@media
