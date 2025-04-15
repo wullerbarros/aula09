@@ -55,6 +55,11 @@ main{
     display:grid;
     grid-template-columns: 1fr 3fr;
 }
+.aside-filtro{
+    position: sticky;
+    top: 110px;
+    height: fit-content;
+}
 
 .nav-header, .nav-header ul{
     display: flex;
