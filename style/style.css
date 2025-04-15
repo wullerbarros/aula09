@@ -146,6 +146,23 @@ h2 > a{
     font-weight: 600;
 }
 
+footer{
+    background-color: #242e56;
+    color: #fff;
+}
+
+.nav-footer a{
+    color: #fff;
+}
+
+.nav-footer{
+    text-decoration: underline;
+}
+
+hr{
+    border: 2px solid black;
+    background-color: black;
+}
 
 @media screen and (width <= 998px) {
     header{
