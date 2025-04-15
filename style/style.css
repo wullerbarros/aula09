@@ -7,6 +7,9 @@
     text-decoration: none;
     font-family: "Inter", sans-serif;
 }
+
+
+
 body{
     padding-left: 10px;
     padding-right: 10px;
@@ -46,6 +49,11 @@ header{
 
 .lista-icone{
     display: none;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 .nav-header, .nav-header ul{
